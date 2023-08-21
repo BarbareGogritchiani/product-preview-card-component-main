@@ -97,13 +97,13 @@ body {
     border-top-left-radius: 1rem;
   }
   .price {
-    font-size: 16px;
+    font-size: 1.5rem;
   }
   .price_1 {
-    font-size: 12px;
+    font-size: 1rem;
   }
   .text {
-    padding: 0.5rem 1rem;
+    padding: 1rem 1.5rem;
     width: auto;
   }
   .text h1 {
@@ -131,22 +131,24 @@ body {
     border-top-left-radius: 1rem;
   }
   .button {
-    padding: 1rem 2rem;
+    width: 100%;
     font-size: 1rem;
+    padding: 1rem 4rem;
   }
   .btn {
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
   }
-  .prices {
-    justify-content: center;
-  }
   .price {
-    font-size: 16px;
+    font-size: 1rem;
   }
   .price_1 {
     font-size: 12px;
+  }
+  .text {
+    padding: 1rem;
   }
   .text h1 {
     font-size: 1.5rem;
